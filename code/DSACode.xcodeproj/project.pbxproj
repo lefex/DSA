@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		232D836E207C3F4C00A10C8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D836D207C3F4C00A10C8C /* AppDelegate.m */; };
-		232D8371207C3F4C00A10C8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D8370207C3F4C00A10C8C /* ViewController.m */; };
+		2302402222182C7500629600 /* LEFClass10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2302402022182C7500629600 /* LEFClass10.cpp */; };
+		232D836E207C3F4C00A10C8C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 232D836D207C3F4C00A10C8C /* AppDelegate.mm */; };
+		232D8371207C3F4C00A10C8C /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 232D8370207C3F4C00A10C8C /* ViewController.mm */; };
 		232D8374207C3F4C00A10C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232D8372207C3F4C00A10C8C /* Main.storyboard */; };
 		232D8376207C3F4C00A10C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232D8375207C3F4C00A10C8C /* Assets.xcassets */; };
 		232D8379207C3F4C00A10C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232D8377207C3F4C00A10C8C /* LaunchScreen.storyboard */; };
 		232D837C207C3F4C00A10C8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D837B207C3F4C00A10C8C /* main.m */; };
+		23D14E68221918FD00171061 /* LEFClass11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23D14E66221918FD00171061 /* LEFClass11.cpp */; };
+		23E6D628221A368D00628CCB /* LEFClass12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23E6D626221A368D00628CCB /* LEFClass12.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2302402022182C7500629600 /* LEFClass10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LEFClass10.cpp; sourceTree = "<group>"; };
+		2302402122182C7500629600 /* LEFClass10.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LEFClass10.hpp; sourceTree = "<group>"; };
 		232D8369207C3F4C00A10C8C /* DSACode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSACode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		232D836C207C3F4C00A10C8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		232D836D207C3F4C00A10C8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		232D836D207C3F4C00A10C8C /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		232D836F207C3F4C00A10C8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		232D8370207C3F4C00A10C8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		232D8370207C3F4C00A10C8C /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		232D8373207C3F4C00A10C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		232D8375207C3F4C00A10C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232D8378207C3F4C00A10C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		232D837A207C3F4C00A10C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		232D837B207C3F4C00A10C8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23D14E66221918FD00171061 /* LEFClass11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LEFClass11.cpp; sourceTree = "<group>"; };
+		23D14E67221918FD00171061 /* LEFClass11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LEFClass11.hpp; sourceTree = "<group>"; };
+		23E6D626221A368D00628CCB /* LEFClass12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LEFClass12.cpp; sourceTree = "<group>"; };
+		23E6D627221A368D00628CCB /* LEFClass12.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LEFClass12.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +68,20 @@
 			isa = PBXGroup;
 			children = (
 				232D836C207C3F4C00A10C8C /* AppDelegate.h */,
-				232D836D207C3F4C00A10C8C /* AppDelegate.m */,
+				232D836D207C3F4C00A10C8C /* AppDelegate.mm */,
 				232D836F207C3F4C00A10C8C /* ViewController.h */,
-				232D8370207C3F4C00A10C8C /* ViewController.m */,
+				232D8370207C3F4C00A10C8C /* ViewController.mm */,
 				232D8372207C3F4C00A10C8C /* Main.storyboard */,
 				232D8375207C3F4C00A10C8C /* Assets.xcassets */,
 				232D8377207C3F4C00A10C8C /* LaunchScreen.storyboard */,
 				232D837A207C3F4C00A10C8C /* Info.plist */,
 				232D837B207C3F4C00A10C8C /* main.m */,
+				2302402022182C7500629600 /* LEFClass10.cpp */,
+				2302402122182C7500629600 /* LEFClass10.hpp */,
+				23D14E66221918FD00171061 /* LEFClass11.cpp */,
+				23D14E67221918FD00171061 /* LEFClass11.hpp */,
+				23E6D626221A368D00628CCB /* LEFClass12.cpp */,
+				23E6D627221A368D00628CCB /* LEFClass12.hpp */,
 			);
 			path = DSACode;
 			sourceTree = "<group>";
@@ -142,9 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232D8371207C3F4C00A10C8C /* ViewController.m in Sources */,
+				232D8371207C3F4C00A10C8C /* ViewController.mm in Sources */,
+				23E6D628221A368D00628CCB /* LEFClass12.cpp in Sources */,
+				2302402222182C7500629600 /* LEFClass10.cpp in Sources */,
 				232D837C207C3F4C00A10C8C /* main.m in Sources */,
-				232D836E207C3F4C00A10C8C /* AppDelegate.m in Sources */,
+				232D836E207C3F4C00A10C8C /* AppDelegate.mm in Sources */,
+				23D14E68221918FD00171061 /* LEFClass11.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGLMB8BDP2;
 				INFOPLIST_FILE = DSACode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lefe-x.DSACode";
@@ -292,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGLMB8BDP2;
 				INFOPLIST_FILE = DSACode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lefe-x.DSACode";
