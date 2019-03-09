@@ -16,6 +16,12 @@
 		232D837C207C3F4C00A10C8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D837B207C3F4C00A10C8C /* main.m */; };
 		23D14E68221918FD00171061 /* LEFClass11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23D14E66221918FD00171061 /* LEFClass11.cpp */; };
 		23E6D628221A368D00628CCB /* LEFClass12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23E6D626221A368D00628CCB /* LEFClass12.cpp */; };
+		34308BF22224BF4E0043C7AB /* LEFData4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34308BF02224BF4E0043C7AB /* LEFData4.cpp */; };
+		3444B718222DF1CB00A0FD0A /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3444B716222DF1CB00A0FD0A /* TwoSum.cpp */; };
+		3444B71B222F48A100A0FD0A /* AddTwoNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3444B719222F48A100A0FD0A /* AddTwoNum.cpp */; };
+		3444B71E2233575800A0FD0A /* LongestSubstring3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3444B71C2233575800A0FD0A /* LongestSubstring3.cpp */; };
+		3444B72122335EC700A0FD0A /* LEFDataStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3444B71F22335EC700A0FD0A /* LEFDataStructure.cpp */; };
+		34C906682220FF9B00D7EC34 /* LEFClass13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34C906662220FF9B00D7EC34 /* LEFClass13.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,18 @@
 		23D14E67221918FD00171061 /* LEFClass11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LEFClass11.hpp; sourceTree = "<group>"; };
 		23E6D626221A368D00628CCB /* LEFClass12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LEFClass12.cpp; sourceTree = "<group>"; };
 		23E6D627221A368D00628CCB /* LEFClass12.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LEFClass12.hpp; sourceTree = "<group>"; };
+		34308BF02224BF4E0043C7AB /* LEFData4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LEFData4.cpp; sourceTree = "<group>"; };
+		34308BF12224BF4E0043C7AB /* LEFData4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LEFData4.hpp; sourceTree = "<group>"; };
+		3444B716222DF1CB00A0FD0A /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
+		3444B717222DF1CB00A0FD0A /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
+		3444B719222F48A100A0FD0A /* AddTwoNum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNum.cpp; sourceTree = "<group>"; };
+		3444B71A222F48A100A0FD0A /* AddTwoNum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNum.hpp; sourceTree = "<group>"; };
+		3444B71C2233575800A0FD0A /* LongestSubstring3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestSubstring3.cpp; sourceTree = "<group>"; };
+		3444B71D2233575800A0FD0A /* LongestSubstring3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestSubstring3.hpp; sourceTree = "<group>"; };
+		3444B71F22335EC700A0FD0A /* LEFDataStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LEFDataStructure.cpp; sourceTree = "<group>"; };
+		3444B72022335EC700A0FD0A /* LEFDataStructure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LEFDataStructure.hpp; sourceTree = "<group>"; };
+		34C906662220FF9B00D7EC34 /* LEFClass13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LEFClass13.cpp; sourceTree = "<group>"; };
+		34C906672220FF9B00D7EC34 /* LEFClass13.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LEFClass13.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +100,18 @@
 				23D14E67221918FD00171061 /* LEFClass11.hpp */,
 				23E6D626221A368D00628CCB /* LEFClass12.cpp */,
 				23E6D627221A368D00628CCB /* LEFClass12.hpp */,
+				34C906662220FF9B00D7EC34 /* LEFClass13.cpp */,
+				34C906672220FF9B00D7EC34 /* LEFClass13.hpp */,
+				34308BF02224BF4E0043C7AB /* LEFData4.cpp */,
+				34308BF12224BF4E0043C7AB /* LEFData4.hpp */,
+				3444B716222DF1CB00A0FD0A /* TwoSum.cpp */,
+				3444B717222DF1CB00A0FD0A /* TwoSum.hpp */,
+				3444B719222F48A100A0FD0A /* AddTwoNum.cpp */,
+				3444B71A222F48A100A0FD0A /* AddTwoNum.hpp */,
+				3444B71C2233575800A0FD0A /* LongestSubstring3.cpp */,
+				3444B71D2233575800A0FD0A /* LongestSubstring3.hpp */,
+				3444B71F22335EC700A0FD0A /* LEFDataStructure.cpp */,
+				3444B72022335EC700A0FD0A /* LEFDataStructure.hpp */,
 			);
 			path = DSACode;
 			sourceTree = "<group>";
@@ -158,11 +188,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				232D8371207C3F4C00A10C8C /* ViewController.mm in Sources */,
+				3444B718222DF1CB00A0FD0A /* TwoSum.cpp in Sources */,
 				23E6D628221A368D00628CCB /* LEFClass12.cpp in Sources */,
+				34308BF22224BF4E0043C7AB /* LEFData4.cpp in Sources */,
 				2302402222182C7500629600 /* LEFClass10.cpp in Sources */,
 				232D837C207C3F4C00A10C8C /* main.m in Sources */,
+				3444B71E2233575800A0FD0A /* LongestSubstring3.cpp in Sources */,
+				34C906682220FF9B00D7EC34 /* LEFClass13.cpp in Sources */,
+				3444B71B222F48A100A0FD0A /* AddTwoNum.cpp in Sources */,
 				232D836E207C3F4C00A10C8C /* AppDelegate.mm in Sources */,
 				23D14E68221918FD00171061 /* LEFClass11.cpp in Sources */,
+				3444B72122335EC700A0FD0A /* LEFDataStructure.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

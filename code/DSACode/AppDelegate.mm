@@ -7,6 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#include "TwoSum.hpp"
+#include "AddTwoNum.hpp"
+#include "LongestSubstring3.hpp"
+
+/**
+ C++ API
+ http://www.cplusplus.com/reference/unordered_map/unordered_map/
+ http://c.biancheng.net/view/530.html
+ */
 
 @interface AppDelegate ()
 
@@ -16,35 +25,60 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self testLonestSubstring3];
     return YES;
 }
 
-
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+- (void)testLonestSubstring3 {
+    LongestSubstring3::Solution ret = LongestSubstring3::Solution();
+    int max = ret.lengthOfLongestSubstring2("aab");
+    NSLog(@"max: %@", @(max));
 }
 
+- (void)testAddTwoNum {
+    /*
+     Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+     Output: 7 -> 0 -> 8
+     Explanation: 342 + 465 = 807.
+     */
+    AddTwoNum::Solution sum = AddTwoNum::Solution();
+    AddTwoNum::ListNode l1_0 = AddTwoNum::ListNode(2);
+    AddTwoNum::ListNode l1_1 = AddTwoNum::ListNode(4);
+    l1_0.next = &l1_1;
+    AddTwoNum::ListNode l1_2 = AddTwoNum::ListNode(3);
+    l1_1.next = &l1_2;
+    
+    AddTwoNum::ListNode l2_0 = AddTwoNum::ListNode(5);
+    AddTwoNum::ListNode l2_1 = AddTwoNum::ListNode(6);
+    l2_0.next = &l2_1;
+    AddTwoNum::ListNode l2_2 = AddTwoNum::ListNode(4);
+    l2_1.next = &l2_2;
+    
+    AddTwoNum::ListNode *ret = sum.addTwoNumbers2(&l1_0, &l2_0);
+    while (ret != nullptr) {
+        printf("ret value: %d", ret->val);
+        ret = ret->next;
+    }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-}
-
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+- (void)testTwoSum {
+    Solution sum = Solution();
+    vector<int> nums = {1, 2, 4, 6, 9};
+    int target = 8;
+    vector<int> rets = sum.twoSum(nums, target);
+    if (rets.size() > 0) {
+        printf("%d , %d \n", rets[0], rets[1]);
+    } else {
+        printf("not found 1 \n");
+    }
+    
+    vector<int> rets2 = sum.twoSum2(nums, target);
+    if (rets.size() > 0) {
+        printf("%d , %d \n", rets2[0], rets2[1]);
+    } else {
+        printf("not found 2 \n");
+    }
 }
 
 

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #include "LEFClass10.hpp"
 #include "LEFClass11.hpp"
+#include "LEFClass12.hpp"
 #import <iostream>
 
 @interface ViewController ()
@@ -20,7 +21,58 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    [self testClass10];
-    [self testClass11];
+//    [self testClass11];
+//    [self testClass12];
+//    [self testQueue];
+    return;
+    
+    double price = 100;
+    NSLog(@"%p", &price);
+    
+    Customer qe = Customer();
+    qe.set(10);
+    Customer *qe2 = new Customer();
+    qe2->set(100);
+    
+    NSLog(@"&qe: %p", &qe);
+    NSLog(@"qe2: %p, &qe2: %p", qe2, &qe2);
+}
+
+- (void)testQueue {
+    using std::cout;
+    using std::endl;
+    
+    Queue line(3);
+    
+    Item item1;
+    item1.set(1);
+    line.enqueue(item1);
+    
+    Item item2;
+    item2.set(2);
+    line.enqueue(item2);
+    
+    Item item3;
+    item3.set(3);
+    line.enqueue(item3);
+    
+    Item item4;
+    item4.set(4);
+    line.enqueue(item4);
+    
+    Item item5;
+    line.dequeue(item5);
+    cout << item5.when() << std::endl;
+    
+    Item item6;
+    line.dequeue(item6);
+    cout << item6.when() << std::endl;
+}
+
+- (void)testClass12 {
+    StringBad bad = StringBad("Lefex");
+    // 自动提供了 StringBad(const StringBad &) 构造函数，这就称为复制构造函数
+    StringBad bad2 = bad;
 }
 
 - (void)testClass11 {
