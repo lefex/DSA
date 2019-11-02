@@ -50,4 +50,4 @@ Android 入门的第一本书。
 
 ### 我的公众号，平时写一下自己的想法
 
-<img src="https://raw.githubusercontent.com/lefex/iWeChat/master/image/qrcode_main.jpg" title="继承" width="300"/>
+![](https://github.com/lefex/FE/blob/master/asset/qrcode.png)
